@@ -1,4 +1,4 @@
-import questionsBank from './game_data';
+// import questionsBank from './game_data';
 
 var Question = class Question {
   constructor( image, choices, correct_choice ) {

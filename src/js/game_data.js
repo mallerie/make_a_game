@@ -1,9 +1,15 @@
 export var GAME_HEIGHT = 800;
 export var GAME_WIDTH = 1300;
 
-import score from './index'
+import score from './index';
+import Question from './question';
 
 var questionsBank = [
+  new Question (
+     `<img src="./images/welcome_asl.gif">`,
+      ['welcome', 'black', 'carnival', 'milk'],
+      'welcome',
+  ),
   {
     image: `<img src="./images/welcome_asl.gif">`,
     choices: ['welcome', 'black', 'carnival', 'milk'],
