@@ -10,11 +10,11 @@ var questionsBank = [
       ['welcome', 'black', 'carnival', 'milk'],
       'welcome',
   ),
-  {
-    image: `<img src="./images/welcome_asl.gif">`,
-    choices: ['welcome', 'black', 'carnival', 'milk'],
-    correct_choice: 'welcome',
-  },
+  // {
+  //   image: `<img src="./images/welcome_asl.gif">`,
+  //   choices: ['welcome', 'black', 'carnival', 'milk'],
+  //   correct_choice: 'welcome',
+  // },
   
   {
     image: `<img src="./images/garage_asl.gif">`,

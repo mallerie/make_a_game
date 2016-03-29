@@ -74,6 +74,7 @@ function renderQuestion() {
 
 function renderWinScreen() {
   return `
+  <div class="game-result"><h3>Thanks for Playing! You Win!<h3/></div>
   <div><img src="./images/win_asl.gif"></div>
   <div>
   `
@@ -81,6 +82,7 @@ function renderWinScreen() {
 
 function renderLoseScreen() {
   return `
+  <div class="game-result"><h3>Thanks for Playing! You Lose!<h3/></div>
   <div><img src="./images/failed_asl.gif">
   `
 };

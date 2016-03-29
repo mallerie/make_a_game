@@ -14,10 +14,14 @@ h1 {
   color: white;
   display: flex;
   justify-content: center;
-  
   font-family: 'Permanent Marker', cursive;
   font-size: 2.5em;
   
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+
 }
 
 .game {
@@ -33,6 +37,11 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 40px;
+}
+
+.game-result {
+  display: block;
+  height: 40px;
 }
 
 img {
